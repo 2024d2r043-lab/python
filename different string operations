@@ -1,0 +1,11 @@
+s = "Hello, Python!"
+
+print(len(s))          # Length
+print(s.upper())       # Uppercase
+print(s.lower())       # Lowercase
+print(s + " World")    # Concatenation
+print(s[:5])           # Slicing
+print(s.find("Python"))# Find
+print(s.replace("Python","Java")) # Replace
+print(s.split())       # Split
+print(s[::-1])         # Reverse
