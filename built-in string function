@@ -1,0 +1,14 @@
+s = "  Hello, Python World!  "
+
+print(s.strip())                     # Strip
+print(s.upper())                     # Uppercase
+print(s.lower())                     # Lowercase
+print(s.capitalize())                # Capitalize
+print(s.title())                     # Title case
+print(s.count('o'))                  # Count
+print(s.find('Python'))              # Find
+print(s.startswith('  Hello'))       # Startswith
+print(s.endswith('World!  '))        # Endswith
+print(s.replace('Python','Java'))    # Replace
+print(s.split())                     # Split
+print('-'.join(['Python','is','fun'])) # Join
